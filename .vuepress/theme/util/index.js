@@ -4,10 +4,22 @@ export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^[a-z]+:/i
 
-export function normalize (path) {
-  return decodeURI(path)
-    .replace(hashRE, '')
-    .replace(extRE, '')
+export function normalize(path) {
+    try {
+        // 首先检查 path 是否为有效字符串
+        if (typeof path !== 'string') {
+            return '';
+        }
+        
+        // 使用 try-catch 包装 decodeURI
+        const decodedPath = decodeURI(path);
+        return decodedPath
+            .replace(hashRE, '')
+            .replace(extRE, '');
+    } catch (e) {
+        console.warn(`Failed to normalize path: ${path}`, e);
+        return path; // 发生错误时返回原始路径
+    }
 }
 
 export function getHash (path) {

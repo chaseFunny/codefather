@@ -1,4 +1,4 @@
-import {NavItem} from "vuepress/config";
+import { NavItem } from "vuepress/config";
 
 export default [
     {
@@ -77,6 +77,21 @@ export default [
         ]
     },
     {
+        text: "高频面试题",
+        link: '/高频面试题/Java 基础面试题/',
+        items: [
+            {
+                text: "Java 基础面试题", link: "/高频面试题/Java 基础面试题/",
+            },
+            {
+                text: "Java 并发面试题", link: "/高频面试题/Java 并发面试题/",
+            },
+            {
+                text: "Java 集合面试题", link: "/高频面试题/Java 集合面试题/",
+            },
+        ]
+    },
+    {
         text: "项目实战",
         link: '/项目实战/'
     },
@@ -89,7 +104,7 @@ export default [
         link: '/知识碎片/'
     },
     {
-        text:"Bug手册",
+        text: "Bug手册",
         link: '/Bug手册/'
     },
     {

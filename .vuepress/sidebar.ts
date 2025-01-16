@@ -1,4 +1,4 @@
-import {SidebarConfig4Multiple} from "vuepress/config";
+import { SidebarConfig4Multiple } from "vuepress/config";
 import codeNavSideBar from "./sidebars/codeNavSideBar";
 import knowledgeSideBar from "./sidebars/knowledgeSideBar";
 import roadmapSideBar from "./sidebars/roadmapSideBar";
@@ -7,10 +7,12 @@ import productSideBar from "./sidebars/productSideBar";
 import selfStudySideBar from "./sidebars/selfStudySideBar";
 import programmingShareSideBar from "./sidebars/programmingShareSideBar";
 import bugFixManual from "./sidebars/bugFixManual"
+import interviewQuestionBar from './sidebars/interviewQuestionBar'
 // @ts-ignore
 export default {
     "/学习路线/": roadmapSideBar,
     "/项目实战/": projectSideBar,
+    "/高频面试题/": interviewQuestionBar,
     "/编程导航/": codeNavSideBar,
     "/产品服务/": productSideBar,
     "/知识碎片/": knowledgeSideBar,

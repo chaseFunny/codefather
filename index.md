@@ -1,7 +1,3 @@
----
-permalink: /
----
-
 # 鱼皮的编程宝典
 
 > 贴心的编程学习路线，全面的编程知识百科
@@ -67,3 +63,32 @@ permalink: /
 ## [作者介绍](/作者)
 
 没啥好说的，感谢您的阅读！
+
+
+
+## 升级到 vitepress
+
+1) 移除 vuepress 相关的依赖，应该得到下面这样的 package.json，删除锁文件
+
+```json
+{
+  "name": "codefather",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "license": "MIT"
+}
+```
+
+2) 根据官方文档来初始化 vitepress
+
+我使用的是 pnpm 作为包管理工具。先执行：` pnpm add -D vitepress` 
+然后执行 `pnpm vitepress init`
+
+3) 修改 `vitepress/config.mts` 文件
+
+```ts
+
+```
+
+
