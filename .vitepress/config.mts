@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import themeNavConfig from './config/nav'
-
+import siderConfig from './config/sidebars'
 const author = "程序员鱼皮";
 const domain = "https://codefather.cn";
 const tags = ["程序员", "编程", "计算机"];
@@ -45,8 +45,7 @@ export default defineConfig({
     // siteTitle: '鱼皮的编程宝典 - cc',
     logo: '/logo.png',
 
-    sidebar: [
-    ],
+    sidebar: siderConfig,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/liyupi/codefather' }

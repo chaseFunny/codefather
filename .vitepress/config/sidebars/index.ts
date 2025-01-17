@@ -1,4 +1,3 @@
-import AlgorithmClearanceSideBar from './AlgorithmClearanceSideBar'
 import bugFixManual from './bugFixManual'
 import codeNavSideBar from './codeNavSideBar'
 import knowledgeSideBar from './knowledgeSideBar'
@@ -10,13 +9,13 @@ import selfStudySideBar from './selfStudySideBar'
 
 
 export default {
-  AlgorithmClearanceSideBar,
-  bugFixManual,
-  codeNavSideBar,
-  knowledgeSideBar,
-  productSideBar,
-  programmingShareSideBar,
-  projectSideBar,
-  roadmapSideBar,
-  selfStudySideBar
+  "/Bug手册/": bugFixManual,
+  "/编程导航/": codeNavSideBar,
+  "/知识碎片/": knowledgeSideBar,
+  "/项目实战/": productSideBar,
+  "/编程分享/": programmingShareSideBar,
+  "/产品服务/": projectSideBar,
+  "/学习路线/": roadmapSideBar,
+  "/自学之路/": selfStudySideBar,
+  // "/关于我们/": ["", "个人经历"],
 }

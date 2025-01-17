@@ -1,4 +1,4 @@
-// 生成侧边栏配置
+// 生成侧边栏配置 vuepress 的
 // @ts-ignore
 const fs = require('fs');
 // @ts-ignore

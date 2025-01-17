@@ -1,4 +1,4 @@
-# GitHub这5个骚操作，99%的人不知道！
+# GitHub这5个骚操作，百分之 99 的人不知道！
 
 > 本文作者：[程序员鱼皮](https://yuyuanweb.feishu.cn/wiki/Abldw5WkjidySxkKxU2cQdAtnah)
 >
