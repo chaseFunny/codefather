@@ -50,8 +50,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/liyupi/codefather' }
     ],
-    footer: {}
+    footer: {},
   },
+  ignoreDeadLinks: true,
+  cacheDir: ''
   // markdown: {
   //   config: (md) => {
   //     md.use((md) => {
